@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="stylesheet" href="./resources/css/responsive.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <style type="text/css">
+        #map {
+            width: 100%;
+            height: 100%;
+            border-radius: 25px;
+        }
+    </style>
+    <title>KəndiGətir | Ödəniş</title>
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <div class="hero">
+        <header class="header">
+            <nav class="fresh-navbar">
+                <a href="index.html" class="fresh-nav-logo"><img src="./resources/img/logo-green.svg" alt=""></a>
+                <ul class="fresh-nav-menu">
+                    <li class="fresh-nav-item">
+                        <a href="category.html" class="fresh-nav-link">Kateqoriya</a>
+                    </li>
+                    <li class="fresh-nav-item">
+                        <a href="about.html" class="fresh-nav-link">Hekayəmiz</a>
+                    </li>
+                    <li class="fresh-nav-item">
+                        <a href="#Long-slider" class="fresh-nav-link">Kampaniyalar</a>
+                    </li>
+                    <li class="fresh-nav-item">
+                        <a href="category.html" class="fresh-nav-link">Sifariş et</a>
+                    </li>
+                    <li class="fresh-nav-item ex-fresh">
+                        <a href="freshmums.html" class="fresh-nav-link"><img src="./resources/img/freshmums.png" alt="">
+                        </a>
+                    </li>
+                    <li class="fresh-nav-item ex-fresh">
+                        <a href="basket.html" class="fresh-nav-link"><img src="./resources/img/cart.svg" alt=""></a>
+                    </li>
+                    <li class="fresh-nav-item ex-fresh">
+                        <div class="dropdown">
+                            <i class="fal fa-user-circle dropbtn"></i>
+                            <div class="dropdown-content">
+                                <a class="cool-link" href="login.html">Daxil ol</a>
+                                <a class="cool-link" 
+                                    href="register.html">Qeydiyyatdan keç</a>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <div class="top-line"></div>
+    <!-- NAVIGATION BAR END -->
+
+    <!-- BLUE-HEADER -->
+    <div class="blue-bg">
+        <div class="container py-4">
+            <h1>Ödəniş</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Ana səhifə</a></li>
+                    <li class="breadcrumb-item"><a href="basket.html">Səbət</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Ödəniş</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- BLUE-HEADER-END -->
+
+    <!-- PAYMENT-SECTİON -->
+    <div class="container mt-5">
+        <form id="form" action="">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="info-buttons ">
+                        <div class="shipping-radio ">
+                            <button class="left-blue-nav" type="button" data-open="content1">
+                                <input type="radio" id="a25" name="shipping" checked />
+                                <label for="a25">Çatdırılma</label>
+                            </button>
+                        </div>
+                        <div class="shipping-radio">
+                            <button class="left-blue-nav" type="button" data-open="content2">
+                                <input type="radio" id="a50" name="shipping" />
+                                <label for="a50">Mağazadan götür</label>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="floating-labels">
+                        <label for="input1">Ad,Soyad<span class="color-red">*</span></label>
+                        <input id="input1" type="text" value="" name="input1">
+                        <label for="input2">Modil nömrə<span class="color-red">*</span></label>
+                        <input id="input2" type="text" value="" name="input1">
+                        <label for="input3">Qeyd<span class="color-red">*</span></label>
+                        <textarea name="" id="input3"></textarea>
+                    </div>
+                    <div>
+                        <div class="info-buttons ">
+                            <div class="shipping-radio ">
+                                <input type="radio" id="a250" name="payment" checked />
+                                <label class="radius-label" for="a250">Qapıda ödəniş</label>
+                            </div>
+                            <div class="shipping-radio">
+                                <input type="radio" id="a500" name="payment" />
+                                <label class="radius-label" for="a500">Kartla ödəniş</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="payment-right p-4">
+                        <h5>Sifarişin nüsxəsi</h5>
+                        <div class="payment-line"></div>
+                        <p>Səbətdə <span>2</span> məhsul</p>
+                        <div class="cart-flex">
+                            <div class="cart-flex-img">
+                                <img src="./resources/img/et.svg" alt="">
+                                <p><span>Mal əti 300 qram</span></p>
+                            </div>
+                            <div>
+                                <p><span>300</span>AZN</p>
+                            </div>
+                        </div>
+                        <div class="cart-flex">
+                            <div class="cart-flex-img">
+                                <img src="./resources/img/süd.svg" alt="">
+                                <p><span>Süd 5 litr</span></p>
+                            </div>
+                            <div>
+                                <p><span>300</span>AZN</p>
+                            </div>
+                        </div>
+                        <div class="payment-line"></div>
+                        <div class="cart-flex">
+                            <div class="cart-flex-img">
+                                <p>Çatdırılma</p>
+                            </div>
+                            <div>
+                                <p><span>300</span>AZN</p>
+                            </div>
+                        </div>
+                        <div class="cart-flex">
+                            <div class="cart-flex-img">
+                                <p>Toplam</p>
+                            </div>
+                            <div>
+                                <p><span>300</span>AZN</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="container mt-5">
+        <div class="extra" id="content1">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="adress-left">
+                        <h4>Ünvan</h4>
+                        <div class="map">
+                            <div id="map"></div>
+                        </div>
+                        <div class="map-button" style="height: 65px;">
+                            <button id="confirmPosition" class="adress-info-button" style="float: left !important; margin: 10px 0;">Ünvanı təsdiqlə</button>                           
+                            <input type="text" id="onClickPositionView-lat" style="visibility:hidden"/>
+                            <input type="text" id="onClickPositionView-lng" style="visibility:hidden"/>
+                        </div>
+                        <div>
+                            <label class="select-label" for="slct">Ölkə<span class="color-red">*</span></label>
+                            <div class="select">
+                                <select name="slct" id="slct" selected placeholder="fff">
+                                    <option value="azerbaycan" selected>Azərbaycan</option>
+                                    <option value="turkiye">Türkiyə</option>
+                                    <option value="rusiya">Rusiya</option>
+                                </select>
+                            </div>
+                            <div class="adress-info ">
+                                <label class="adress-info-simple" for="input4">Küçə<span
+                                        class="color-red">*</span></label>
+                                <input id="street-input" type="text" value="" name="input1">
+                            </div>
+                            <div class="adress-info-small">
+                                <div>
+                                    <label for="input5">Ev No<span class="color-red">*</span></label>
+                                    <input id="input5" type="number" value="">
+                                </div>
+                                <div>
+                                    <label for="input6">Mənzil No<span class="color-red">*</span></label>
+                                    <input id="input6" type="number" value="">
+                                </div>
+                                <div>
+                                    <label for="input7">Blok No<span class="color-red">*</span></label>
+                                    <input id="input7" type="number" value="">
+                                </div>
+                                <div>
+                                    <label for="input8">Mərtəbə<span class="color-red">*</span></label>
+                                    <input id="input8" type="number" value="">
+                                </div>
+                            </div>
+                            <button class="adress-info-button">Ünvanı yadda saxla</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="adress-info-right">
+                        <div class="back-to-shop w-50">
+                            <a href=""><button>
+                                    <i class="fal fa-long-arrow-left"></i>
+                                    <h6>Mağazaya geri dönün</h6>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="confirm w-50">
+                            <button onclick="$('#form').submit()" class="w-100 adress-info-right-button">Sifarişi
+                                təsdiqləyin</button>
+                        </div>
+                    </div>
+                    <p class="mt-5">*Sifariş verilən gündən maksimal sifarişlər 3 gün müddətində çatdırılma və saat
+                        (09:00 – 21:00) </p>
+                </div>
+            </div>
+        </div>
+        <div class="extra" id="content2" style="display: none;">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="time-text">
+                        <h4>Məshulu götürəcəyiniz müddət</h4>
+                        <div class="time-range">
+                            <button id="minus-button" onclick="minusValue()">-</button>
+                            <input id="time-range-input" type="number" value="5" min="5" max="55" disabled>
+                            <button id="plus-button" onclick="plusValue()">+</button>
+                        </div>
+                        <p>* Bu xidmət üçün maksimal götürmə müddəti 55 dəqiqədir.</p>
+                    </div>
+                    
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="adress-info-right">
+                        <div class="back-to-shop w-50">
+                            <a href=""><button>
+                                    <i class="fal fa-long-arrow-left"></i>
+                                    <h6>Mağazaya geri dönün</h6>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="w-50">
+                            <button onclick="$('#form').submit()" class="w-100 adress-info-right-button">Sifarişi
+                                təsdiqləyin</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- PAYMENT-SECTİON-END -->
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row mt-5 py-5">
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12">
+                    <div class="footer-item-logo">
+                        <img src="./resources/img/logo-white.svg" alt="">
+                        <h3>KƏNDİ GƏTİR</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12">
+                    <div class="footer-item">
+                        <h3>Bizi izləyin</h3>
+                        <div class="social-footer">
+                            <a href="#"> <img src="./resources/img/instagram 1.svg" alt=""></a>
+                            <a href="#"> <img src="./resources/img/facebook 1.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12">
+                    <div class="footer-item">
+                        <h3>Əlaqə</h3>
+                        <a href=""><span>+994 55 123 45 67</span></a>
+                        <a href=""><span>info@kendigetir.com</span></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12">
+                    <div class="footer-item">
+                        <h3>Ünvan</h3>
+                        <span>Atatürk prospekti 58 </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+  
+    <script src="https://unpkg.com/location-picker/dist/location-picker.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script src="./resources/js/main.js"></script>
+    <script src="./resources/js/map.js"></script>
+</body>
+
+</html>

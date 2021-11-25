@@ -1,0 +1,503 @@
+@media only screen  and (max-width:1200px){
+    .card:hover .card-price button span{
+        display: none !important;
+    }
+    .select1 select{
+        font-size: 1em;
+    }
+    .alt-input{
+        display: flex;
+        align-items: center;
+    }
+}
+@media only screen  and (max-width:992px){
+    .main-flex{
+        flex-direction: column-reverse;
+    }
+    footer .footer-item-logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .footer-item{
+        text-align: center;
+        margin: 10px 0;
+    }
+    .freshmums{
+        flex-direction: column-reverse;
+    }
+    .main .main-left h1{
+        font-size: 1.5em;
+        color: #FFFFFF;
+    }
+    .main .main-left button{
+        padding: 10px 30px;
+    }
+    .main{
+        padding: 0px 30px;
+    }
+    .nav-icons{
+        display: flex;
+        margin: auto;
+    }
+    .nav-logo{
+        margin: auto;
+    }
+    .product-indicator-parent1{
+        left: 0 !important;
+    }
+    .product-indicator-parent2{
+        right: 0 !important;
+    }
+    .freshmums{
+        flex-direction: column-reverse;
+    }
+    .shipping-radio{
+        height:70px !important ;
+    }
+    .payment-labels{
+        height: unset !important;
+    }
+    .craft{
+        display: flex;
+        justify-content: center;
+    }
+    #About .about-right {
+       margin: 50px 0 0 0;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+    #About .about-right h1{
+        text-align: center;
+    }
+    #About .about-right p{
+        text-align: center;
+    }
+    #About .about-right button{
+        align-self:center;
+    }
+    .features-title h1{
+         font-size: 1.5em;
+    }
+    #About .about-left img {
+        border-radius: 15px;
+        box-shadow: 0px 10px 0px 9px #41d050;
+    }
+    #Freshmums .freshmums-right {
+        display: flex;
+        justify-content: center;
+        margin: 50px 0 0 0 ;
+    }
+    #Freshmums .freshmums {
+        flex-direction: column;
+    }
+    .fresh-img1{
+        display: none !important;
+    }
+    .fresh-img2{
+        display: block !important;
+    }
+    .product-right-bar {
+        text-align: center;
+    }
+    .footer-item-logo-parent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .link-to-edit{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 15px 0 0 0;
+    }
+    #Profile-info .client-data .centerWrapper{
+        text-align: center;
+    }
+    #Profile-info .client-info .client-data{
+        text-align: center;
+    }
+}
+@media only screen  and (max-width:770px){
+    #Category .left-category{
+        text-align: center;
+    }
+    #Category .right-category{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    #Category .right-category .range-slider{
+        margin: 20px 0;
+    }
+}
+@media only screen  and (max-width:768px){
+    .login {
+        width: 80%;
+    }
+    .payment-right{
+        margin: 100px 0 0 0;
+    }
+    .adress-info-button{
+        margin:20px 0 ;
+        padding: 0 10px;
+    }
+    .select1 {
+        width: 58%;
+        margin: 15px 0 0 0;
+    }
+    footer .footer-item img{
+        margin:0 10px ;
+    }
+    .own-info ul{
+        overflow: hidden;
+        width: fit-content;
+        padding: 1.6rem 0;
+    }
+    .dropdown-content {
+        left: 40%;
+    }
+}
+@media only screen  and (max-width:540px){
+    #Freshmums .freshmums-left h1 {
+        font-size:45px;
+        text-align: center;
+    }
+    #Freshmums .freshmums-left p {
+        text-align: center;
+    }
+    #Freshmums .freshmums-left {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #Freshmums .freshmums-left button {
+        align-self: center;
+    }
+    .fresh-header{
+        text-align: center;
+    }
+    #Freshmums .freshmums-left a{
+        margin: auto;
+    }
+    .look-all{
+        display: flex;
+        justify-content: center;
+        margin: 10px 0 0 0 ;
+    }
+    .long-images img{
+        height: 150px;
+    }
+    .profile-header{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+    .info-section{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .info-section form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .account-form{
+        margin: 20px 0;
+    }
+    .for-scroll{
+        overflow: auto !important;
+    }
+}
+@media only screen  and (max-width:450px){
+    .buy-order-inner{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50% ;
+
+        text-align: center;
+    }
+    .buy-order-history{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50% ;
+        text-align: center;
+    }
+    .comment-line-1{
+        width: 100%;
+        height: 1px;
+        background-color: #CACDD8;
+        margin: 0 0 10px 0;
+    }
+    .buy-order h3{
+        text-align: center;
+    }
+    #Buy-order .buy-order {
+        padding: 30px 25px;
+    }
+    .buy-order-inner-1{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50% ;
+        text-align: center;
+    }
+    .buy-order-history-1{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        text-align: center;
+    }
+    .buy-order-1 {
+        padding: 30px 25px;
+    }
+    .basket-delete{
+        grid-column: 1/3;
+    }
+    .comment-line-end{
+        width: 100%;
+        height: 1px;
+        background-color: #CACDD8;
+    }
+}
+@media only screen  and (max-width:404px){
+    .alt-input button{
+        height: unset !important;  
+    }
+}
+
+@media only screen  and (max-width:400px){
+    .our-works-head{
+        font-size: 2em;
+        text-align: center;
+    }
+    .title-category h1{
+        font-size: 2em;
+        text-align: center;
+    }
+    .cat-btn{
+        justify-content: center !important;
+        margin: 15px 0 0 0 ;
+    }
+    .texarea-button{
+        align-self: center;
+    }
+    .left-all-products h1{
+        text-align: center;
+    }
+    .btn-end{
+        justify-content: center !important;
+    }
+    .texarea-button{
+        align-self: center;
+    }
+    #Profile-info .client-info .client-name {
+        flex-direction: column;
+        text-align: center;
+    }
+    .thanks-title h2{
+        font-size: 22px;
+    }
+    .thanks .thanks-title button{
+        box-shadow: 0px 18px 40px -12px #5C618D40;
+        border: none;
+        border-radius: 40px;
+        background-color: #41D050;
+        width: 150px;
+        height:55px;
+        margin: 10px 0;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    #Basket .buttonss .select-btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 15px 0;
+    }
+    #Basket .buttonss .select-btn .complete-btn button{
+        margin: 15px 0;
+    }
+    #Basket .buttonss .promo-btn input {
+        width: 170px;
+    }
+    #Basket .buttonss .promo-btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media only screen  and (max-width:345px){
+#Category-slider {
+    padding: 0 0 0 0 !important;
+}
+.main .main-left button{
+    padding: 13px;
+}
+.nav-menu {
+    position: absolute;
+    z-index: 2;
+    left: -100%;
+    top: 61px;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+}
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between !important;
+    -ms-flex-align: center;
+    -ms-flex-pack: justify;
+    padding: .5rem 1rem;
+}
+.nav-menu.active {
+    left: 0;
+}
+.nav-item {
+    margin: 1rem 0;
+}
+.hamburger {
+    display: block;
+    cursor: pointer;
+}
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+#Profile-info .client-info .client-name {
+    justify-content: center;
+}
+.pass .login h3{
+    font-size: 1.2em;
+    word-wrap: break-word;
+}
+.adress-info-small-modal{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.add-adress-button{
+    display: flex;
+    justify-content: center;
+}
+}
+@media only screen  and (max-width:328px){
+    .product-left-bar{
+        margin: 0 0 20px 0;
+    }
+    .product-right-bar{
+        text-align: center;
+    }
+    .product-right-bar button{
+        margin: unset !important;
+    }
+    #Freshmums .freshmums-left h1 {
+        font-size: 30px;
+        text-align: center;
+        line-height: 35px;
+    }
+    #Freshmums .freshmums-left button {
+        width: auto;
+        padding: 0 20px;
+    }
+    .select1{
+        width: 100%;
+    }
+    #Category .right-category .range-slider input {
+        width: 25%;
+    }
+    .client-name h1{
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .client-data{
+        text-align: center;
+    }
+    .blue-bg h1{
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .breadcrumb{
+        justify-content: center;
+    }
+
+}
+/* BURGER-MENU */
+@media only screen and (max-width: 768px) {
+.fresh-nav-menu {
+    position: absolute;
+    z-index: 2;
+    left: -105%;
+    top: 61px;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+}
+.fresh-nav-menu {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center;
+}
+.fresh-navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between !important;
+    -ms-flex-align: center;
+    -ms-flex-pack: justify;
+    padding: .5rem 1rem;
+}
+.fresh-nav-menu.active {
+    left: 0;
+}
+.fresh-nav-item {
+    margin: 1rem 0;
+}
+.hamburger {
+    display: block;
+    cursor: pointer;
+}
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+}
+@media only screen and (max-width: 1194px) {
+    .fresh-nav-menu {
+        display: grid;
+        grid-template-columns: 18% 19% 19% 18% 19% 5% 5%;
+        align-items: center;
+        margin: unset !important;
+    }
+    .fresh-navbar{
+        grid-template-columns: 10% 90%;
+    }
+    .fresh-nav-item{
+        justify-content: center;
+    }
+}
+/* BURGER-MENU-END */
+
